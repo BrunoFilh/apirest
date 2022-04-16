@@ -1,0 +1,14 @@
+#Banco local - Bruno
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/produtos-apirest
+    username: postgres
+    password: eTk3Wh=2usRy
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
